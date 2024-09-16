@@ -162,7 +162,7 @@ export default function Gallery(){
         <div key={index} className="sample_images grid-cols-4 gaps-4 rounded-xl shadow-xl p-2">
           <ImageSlider>
             {indexArray.map((i, indexI) => {
-             return <Image key={i} width={270} height={270} src={`${item.image_path}${item.model.toLowerCase()}_${i}.jpg`} loading="lazy" />
+             return <Image key={i} width={270} height={270} src={`${item.image_path}${item.model.toLowerCase()}_${i}.jpg`} alt="1" loading="lazy" />
             })}
           </ImageSlider>
           <div className="flex justify-between w-full p-4">

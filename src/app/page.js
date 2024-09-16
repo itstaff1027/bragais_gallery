@@ -3,7 +3,7 @@ import NavLinks from "@/app/ui/nav-links.js"
 import Gallery from "@/app/ui/gallery.js"
 import HowToOrder from "@/app/ui/how-to-order.js"
 
-export default function ({children}) {
+export default function App({children}) {
   
   return (
     <div className="container min-w-full">

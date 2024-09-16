@@ -37,7 +37,7 @@ export default function PhotoPage({ params }){
 
     fetchData()
 
-  }, [])
+  }, [model])
 
   const indexArray = [1, 2, 3, 4]
 

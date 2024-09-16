@@ -7,6 +7,7 @@ export default function NavLinks(){
         src="https://drive.google.com/uc?export=view&id=1sS9JxgWlVm3IrYvRDc2X90soHTCpyvNB"
         width={300}
         height={110}
+        alt="Jojo Bragais Logo"
       />
     </div>
   )

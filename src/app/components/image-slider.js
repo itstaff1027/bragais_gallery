@@ -26,9 +26,7 @@ function ImageSlider({ children }) {
       }
     });
   };
-  useEffect(() => {
-    console.log(activeIndex)
-  }, [])
+ 
   return (
     <div className="flex items-center justify-center relative w-full bg-white h-80 rounded-xl">
       <div className="flex items-center justify-between absolute w-full h-72 text-black">
